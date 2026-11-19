@@ -1,13 +1,8 @@
-import type { ReactNode } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, Outlet, useLocation } from "react-router-dom";
 
 import { domains } from "@/core/domains";
 
-type Props = {
-  children: ReactNode;
-};
-
-export default function Layout({ children }: Props) {
+export default function Layout() {
   const location = useLocation();
 
   return (
@@ -38,7 +33,9 @@ export default function Layout({ children }: Props) {
         </div>
       </header>
       <main className="flex-1">
-        <div className="mx-auto max-w-5xl px-6 py-6">{children}</div>
+        <div className="mx-auto max-w-5xl px-6 py-6">
+          <Outlet />
+        </div>
       </main>
     </div>
   );
