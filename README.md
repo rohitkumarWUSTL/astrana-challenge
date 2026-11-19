@@ -1,6 +1,6 @@
-# Fullstack Scaffold
+# Fullstack App
 
-A fullstack CRUD scaffold with a music domain as the starter. The design goal is **domain-swappable**: replace `backend/app/domains/music/` and `frontend/src/domains/music/` with another domain and the rest of the app keeps working unchanged.
+A fullstack CRUD app with a music domain as the starter. The design goal is **domain-swappable**: replace `backend/app/domains/music/` and `frontend/src/domains/music/` with another domain and the rest of the app keeps working unchanged.
 
 ## Stack
 
