@@ -1,0 +1,16 @@
+.aider*
+.env
+backend/alembic/__pycache__/
+backend/alembic/versions/350135f80362_initial_music_schema.py
+backend/alembic/versions/__pycache__/
+backend/app.db
+backend/app/__pycache__/
+backend/app/core/__pycache__/
+backend/app/domains/__pycache__/
+backend/app/domains/music/__pycache__/
+backend/app_backend.egg-info/
+backend/scripts/__pycache__/
+frontend/node_modules/
+frontend/package-lock.json
+frontend/src/vite-env.d.ts
+opencode/
